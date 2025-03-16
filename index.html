@@ -2,21 +2,59 @@
 <html lang="en">
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>My CV</title>
+    <title>My Professional CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container mt-5">
-        <h1>Welcome to My CV</h1>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">My CV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="working_experience.html">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container text-center">
+            <h1>Welcome to My Professional CV</h1>
+            <p class="lead">An Economist & Data Analyst with a passion for insights and business strategy.</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <div class="container mt-5 text-center">
+        <h2>About Me</h2>
         <p>
-            I am an economist with a strong foundation in financial analysis. <br>
-            You can learn more about me in:
-            <a href="education.html" class="link-primary">Education</a>,
-            <a href="working_experience.html" class="link-primary">Working Experience</a>,
-            <a href="skills.html" class="link-primary">Skills</a>, and
-            <a href="contact.html" class="link-primary">Contact</a>.
+            Detail-oriented Financial Planning and Accounting Analyst with over three years of experience in
+financial consulting, data analysis, and strategic decision-making. Proven track record in budgeting
+and forecasting to drive business decisions. Experience working on large financial projects,
+collaborating with multicultural teams, and providing actionable insights to enhance business
+operations. Seeking a dynamic role in data analytics or business intelligence to apply my skills in
+financial modeling, data visualization, and process management within a fast-paced environment.
+            <br><br>
+            Recently, I completed a Computer Science certification at Harvard, deepening my knowledge in programming and data analytics.
         </p>
+        <a href="contact.html" class="btn btn-primary">Let's Connect</a>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 bg-dark text-white text-center py-3">
+        <p>© 2024 My CV. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
