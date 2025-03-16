@@ -7,13 +7,41 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">My CV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="education.html">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="working_experience.html">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Education Section -->
     <div class="container mt-5">
-        <h1>Education</h1>
-        <ul class="list-group">
-            <li class="list-group-item">Bachelor of Science in Banking and Finance - University of Piraeus</li>
-            <li class="list-group-item">Seminar in Computer Science - Harvard University</li>
+        <h2 class="text-center">Education</h2>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Bachelor of Science in Banking and Finance</strong><br> University of Piraeus</li>
+            <li class="list-group-item"><strong>Seminar in Computer Science</strong><br> Harvard University (2024)</li>
+            <li class="list-group-item"><strong>Finance with Excel</strong><br> 4-month seminar at University of Piraeus, Greece</li>
+            <li class="list-group-item"><strong>Economics of Blockchain</strong><br> 4-month Vocational Training Program at Panteion University</li>
         </ul>
-        <a href="index.html" class="link-primary">Back to Home</a>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 bg-dark text-white text-center py-3">
+        <p>© 2024 My CV. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
